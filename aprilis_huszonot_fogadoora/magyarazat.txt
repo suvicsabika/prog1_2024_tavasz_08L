@@ -1,0 +1,11 @@
+        //          "k"[0] -> 'k'
+
+        //  szo     szo[i]          j     szo[j]    feltétel   karakter
+        // "cica"    szo[0] = 'c'   0       'c'       igaz      'i'
+        // "cica"    szo[1] = 'i'   1       'c'       hamis
+        // "cica"    szo[2] = 'c'   2       'c'       igaz
+        //  "cca"    szo[3] = 'a'   3       'a'       igaz
+        //  "cca"
+
+        //|-> VÉGE a ciklusnak
+        //    szo[j] = '\0';
